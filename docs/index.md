@@ -1,11 +1,5 @@
-# Obsidian Notes
+# 星间漫游
 
-Publish your public notes with MkDocs
+人是宇宙中飘荡的芦苇，在黑暗中扎根。
 
-## Hello World!
-
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+![gewg.png](IT\99_Attachment\gewg.png)
