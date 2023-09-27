@@ -6,11 +6,19 @@
 
 DotCloud开源，可以*将任何应用包装在Linux Container中运行的工具*。基于Doker提供的沙箱环境可以实现轻型隔离。
 
+一组受限的进程（并没有真正的容器，只不过Docker在进程创建时加上了各种NS参数）：
+
+* Cgroups：约束的主要手段，限制一个进程组能够使用的资源上限，包括CPU、内存、磁盘、网络。还能对进程进行优先级设置。
+* Namespace：修改进程视图，如 PID、Mount、UTS、Network、User等资源都能修改进程所看到的视图。
+
+
 ### Docker vs VM
 
 ![[docker_vs_VM.png]]
 
 VM是一个运行在宿主机上的完整操作系统，自身会占用较多的CPU、内存、硬盘资源。Docker只包含应用程序和依赖库，基于libcontainer运行在宿主机上，但是其隔离效果不如VM，共享宿主机操作系统的一些基础库。
+
+Linux内核中，很多资源无法被NS隔离，最典型的就是时间。
 
 ## 组件
 
