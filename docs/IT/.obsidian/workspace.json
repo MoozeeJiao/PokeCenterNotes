@@ -4,31 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "f145964e4946ce71",
+        "id": "bc4da89b0f316102",
         "type": "tabs",
         "children": [
           {
-            "id": "a1394c3fedffa635",
+            "id": "b649c2b002aa558f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Develop/00_Concept/01_Load Balance负载均衡.md",
+                "file": "00_Develop/00_Concept/02_数据密集型应用系统设计 DDIA/07_事务.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f2da084b01e889a9",
+            "id": "88b2eda526de375f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Develop/00_Concept/02_数据密集型应用系统设计 DDIA/07_事务.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -71,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#空间局部性：访问一个数据，他附近的也会马上访问",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Develop/00_Concept/02_数据密集型应用系统设计 DDIA/07_事务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00_Develop/00_Concept/02_数据密集型应用系统设计 DDIA/07_事务.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -139,19 +132,24 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "f2da084b01e889a9",
+  "active": "88b2eda526de375f",
   "lastOpenFiles": [
+    "00_Develop/00_Concept/02_数据密集型应用系统设计 DDIA/02 数据密集型应用系统设计.md",
     "00_Develop/00_Concept/02_数据密集型应用系统设计 DDIA/07_事务.md",
+    "00_Develop/00_Concept/05_数据库系统内幕.md",
+    "Excalidraw/Drawing 2023-11-12 15.53.45.excalidraw.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Excalidraw/Drawing 2023-11-12 15.53.45.excalidraw.svg",
     "00_Develop/00_Concept/04_高并发设计指南.md",
-    "00_Develop/00_Concept/00_杂记.md",
     "00_Develop/00_Concept/01_Load Balance负载均衡.md",
     "00_Develop/00_Concept/03_遗留系统重构实战.md",
+    "00_Develop/00_Concept/00_杂记.md",
     "02_Interview/面经.md",
     "00_Develop/02_Component/06_HBase/00_Hbase不睡觉.md",
     "99_Attachment/hbase01.jpg",
     "00_Develop/02_Component/02_Spring/00_spring事务管理.md",
     "00_Develop/02_Component/04_ZooKeeper.md",
-    "未命名.canvas",
     "99_Attachment/hbase06.jpg",
     "99_Attachment/hbase05.jpg",
     "99_Attachment/hbase04.jpg",
@@ -170,7 +168,6 @@
     "00_Develop/02_Component/03_Redis/04_Lettuce Wiki.md",
     "00_Develop/02_Component/03_Redis/05_Lettuce 源码探索.md",
     "version5.md",
-    "未命名 1.canvas",
     "00_Develop/02_Component/00_Kafka/01_broker/00_日志模块.md",
     "99_Attachment/docker_comp.png",
     "99_Attachment/docker_comp.png.crdownload",
@@ -180,9 +177,6 @@
     "99_Attachment/2022-04-12-jobgraph.png",
     "00_Develop/02_Component/03_Redis/00_Redis中使用bitmap内存突增问题探究.md",
     "00_Develop/02_Component/02_Spring/01_向Spring Bean中添加钩子.md",
-    "00_Develop/02_Component/02_Spring/00_spring事务管理.pdf",
-    "00_Develop/02_Component/00_Kafka/00_kafka基本概念.md",
-    "00_Develop/02_Component/03_Redis/01_Redis String 实现.md",
-    "00_Develop/02_Component/03_Redis/02_Redis 内存分配.md"
+    "00_Develop/02_Component/02_Spring/00_spring事务管理.pdf"
   ]
 }
